@@ -1,0 +1,342 @@
+{
+    "@context": {
+        "@vocab": "http://purl.uvu.edu:8888/ctx/cbe/v1/record_of_performance/"
+    },
+    "@id": "http://purl.uvu.edu:8888/6675c410-1d03-0133-b54c-406c8f40a599",
+    "@type": "RecordOfPerformance",
+    "created_at": "2015-10-10T23:26:00.089Z",
+    "organization": {
+        "@id": "http://purl.uvu.edu:8888/organizations/7",
+        "legal_name": "Utah Valley University",
+        "website": "www.uvu.edu"
+    },
+    "program": {
+        "@id": "http://purl.uvu.edu:8888/programs/7",
+        "degree_level": "Bachelor of Science",
+        "label": "Digital Media - Web Design and Development",
+        "courses": [
+            {
+                "@id": "http://purl.uvu.edu:8888/course_sections/61",
+                "label": "DGM2120",
+                "title": "Web Essentials",
+                "description": "Learners in this course analyze the use of data and databases as key drivers in nursing informatics. Throughout the course, learners demonstrate competence in managing and interpreting data in such a way that enhances their roles and decision-making capabilities in today’s health care technology environments.",
+                "competencies": [
+                    {
+                        "@id": "http://purl.uvu.edu:8888/competencies/115",
+                        "achievement": "Basic",
+                        "label": "DGM2120_1",
+                        "statement": "Create web pages using block and inline elements including <div> and <span>.",
+                        "outcome":{
+                            "@id":"http://example.com/outcomes/5",
+                            "title":"Create web pages using HTML 5"
+                        }
+                    },
+                    {
+                        "@id": "http://purl.uvu.edu:8888/competencies/116",
+                        "achievement": "Distinguished",
+                        "label": "DGM2120_2",
+                        "statement": "Create web pages using all HTML 5 form elements.",
+                        "outcome":{
+                            "@id":"http://example.com/outcomes/5",
+                            "title":"Create web pages using HTML 5"
+                        }
+                    },
+                    {
+                        "@id": "http://purl.uvu.edu:8888/competencies/117",
+                        "achievement": "NonProficient",
+                        "label": "DGM2120_3",
+                        "statement": "Apply styling structures using id and class attributes.",
+                        "outcome":{
+                            "@id":"http://example.com/outcomes/5",
+                            "title":"Create web pages using HTML 5"
+                        }
+                    },
+                    {
+                        "@id": "http://purl.uvu.edu:8888/competencies/118",
+                        "achievement": "Basic",
+                        "label": "DGM2120_4",
+                        "statement": "Apply basic accessibility guidelines to HTML 5 pages.",
+                        "outcome":{
+                            "@id":"http://example.com/outcomes/5",
+                            "title":"Create web pages using HTML 5"
+                        }
+                    },
+                    {
+                        "@id": "http://purl.uvu.edu:8888/competencies/119",
+                        "achievement": "Basic",
+                        "label": "DGM2120_5",
+                        "statement": "Layout HTML elements using semantic markup.",
+                        "outcome":{
+                            "@id":"http://example.com/outcomes/5",
+                            "title":"Create web pages using HTML 5"
+                        }
+                    },
+                    {
+                        "@id": "http://purl.uvu.edu:8888/competencies/119",
+                        "achievement": "Basic",
+                        "label": "DGM2120_6",
+                        "statement": "Position elements outside of normal flow using float and similar CSS properties.",
+                        "outcome":{
+                            "@id":"http://example.com/outcomes/5",
+                            "title":"Create web pages using HTML 5"
+                        }
+                    }
+                ]
+        },
+        {
+            "@id": "http://purl.uvu.edu:8888/course_sections/63",
+            "label": "DGM2740",
+            "title": "Principles of Web Languages",
+            "competencies": [
+                {
+                    "@id": "http://purl.uvu.edu:8888/competencies/120",
+                    "achievement": "Proficient",
+                    "label": "DGM2740_1",
+                    "statement": "Leverage styles from other exemplary sites.",
+                    "outcome":{
+                        "@id":"http://example.com/outcomes/6",
+                        "title":"Implement best practices in web development."
+                    }
+                },
+                {
+                    "@id": "http://purl.uvu.edu:8888/competencies/121",
+                    "achievement": "Distinguished",
+                    "label": "DGM2740_2",
+                    "statement": "Demonstrate use of XML for semi-structured data exchange.",
+                    "outcome":{
+                        "@id":"http://example.com/outcomes/6",
+                        "title":"Implement best practices in web development."
+                    }
+                },
+                {
+                    "@id": "http://purl.uvu.edu:8888/competencies/121",
+                    "achievement": "Distinguished",
+                    "label": "DGM2740_2",
+                    "statement": "Demonstrate use of JSON in data exchange.",
+                    "outcome":{
+                        "@id":"http://example.com/outcomes/6",
+                        "title":"Implement best practices in web development."
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "http://www.pluralsight.com/courses/hacking-user-experience",
+            "label": "Pluralsight",
+            "title": "Hacking the User Experience / UX for Developers",
+            "competencies": [
+                {
+                    "@id": "http://www.pluralsight.com:8888/competencies/220",
+                    "achievement": "Proficient",
+                    "label": "hacking-user-experience_1",
+                    "statement": "Show understanding of user-centered design and cognitive bias.",
+                    "outcome":{
+                        "@id":"http://example.com/outcomes/7",
+                        "title":"Apply user experience (UX) design principles to web applications."
+                    }
+                },
+                {
+                    "@id": "http://pluralsight.com:8888/competencies/221",
+                    "achievement": "NonProficient",
+                    "label": "hacking-user-experience_2",
+                    "statement": "Create and conduct user experience testing.",
+                    "outcome":{
+                        "@id":"http://example.com/outcomes/7",
+                        "title":"Apply user experience (UX) design principles to web applications."
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "http://purl.uvu.edu:8888/course_sections/63",
+            "label":"DGM2740",
+            "title":"Principles of Web Languages",
+            "competencies": [
+                {
+                    "@id": "http://purl.uvu.edu:8888/competencies/124",
+                    "achievement": "Basic",
+                    "label": "DGM2740_3",
+                    "statement": "Use stylesheets with rules, selectors, and properties to style HTML 5 pages.",
+                    "outcome":{
+                        "@id":"http://example.com/outcomes/4",
+                        "title":"Utilize CSS3 for web page style and design."
+                    }
+                },
+                {
+                    "@id": "http://purl.uvu.edu:8888/competencies/125",
+                    "achievement": "NonProficient",
+                    "label": "DGM2740_4",
+                    "statement": "Create CSS rules that use inheritance and demonstrate understanding of specificty.",
+                    "outcome":{
+                        "@id":"http://example.com/outcomes/4",
+                        "title":"Utilize CSS3 for web page style and design."
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "http://www.pluralsight.com/courses/mobile-first-responsive-web-design",
+            "label": "Pluralsight",
+            "title": "Mobile First Responsive Web Design",
+            "competencies": [
+                {
+                    "@id": "http://purl.pluralsight.com:8888/competencies/9826743",
+                    "achievement": "Basic",
+                    "label": "Pluralsight",
+                    "statement": "Demonstrate a web design that is mobile first and responsive.",
+                    "outcome":{
+                        "@id":"http://example.com/outcomes/4",
+                        "title":"Utilize CSS3 for web page style and design."
+                    }
+                }
+            ]
+        },
+        {
+            "@id": "http://www.pluralsight.com/training/player?author=paul-cheney&name=hands-on-responsive-web-design-m9-processor&mode=live&clip=0&course=hands-on-responsive-web-design",
+            "label": "Pluralsight",
+            "title": "Hands On Responsive Web Design",
+            "competencies": [
+                {
+                    "@id": "http://purl.pluralsight.com:8888/competencies/9826743",
+                    "achievement": "Basic",
+                    "label": "Pluralsight",
+                    "statement": "Demonstrate basic use of a CSS pre-processor",
+                    "outcome":{
+                        "@id":"http://example.com/outcomes/4",
+                        "title":"Utilize CSS3 for web page style and design."
+                    }
+                }
+              ]
+          },
+          {
+              "@id": "http://www.pluralsight.com/courses/mobile-first-responsive-web-design",
+              "label": "DGM2760",
+              "title": "Web Languages I",
+              "competencies": [
+                  {
+                      "@id": "http://purl.uvu.edu:8888/competencies/234123",
+                      "achievement": "Basic",
+                      "label": "Pluralsight",
+                      "statement": "Demonstrate code that uses operators, built-in methods, and objects.",
+                      "outcome":{
+                          "@id":"http://example.com/outcomes/1",
+                          "title":"Script basic web page functionality using JavaScript."
+                      }
+                  },
+                  {
+                      "@id": "http://purl.uvu.edu:8888/competencies/1245896923",
+                      "achievement": "Basic",
+                      "label": "Pluralsight",
+                      "statement": "Show use of functions, objects, and storing data in arrays.",
+                      "outcome":{
+                          "@id":"http://example.com/outcomes/1",
+                          "title":"Script basic web page functionality using JavaScript."
+                      }
+                  },
+                  {
+                      "@id": "http://purl.uvu.edu:8888/competencies/124525423",
+                      "achievement": "NonProficient",
+                      "label": "Pluralsight",
+                      "statement": "Create an example of associative arrays and basic hashing.",
+                      "outcome":{
+                          "@id":"http://example.com/outcomes/1",
+                          "title":"Script basic web page functionality using JavaScript."
+                      }
+                  },
+                  {
+                      "@id": "http://purl.uvu.edu:8888/competencies/1241232523",
+                      "achievement": "Distinguished",
+                      "label": "Pluralsight",
+                      "statement": "Demonstrate proper use of conditional statements including switch.",
+                      "outcome":{
+                          "@id":"http://example.com/outcomes/1",
+                          "title":"Script basic web page functionality using JavaScript."
+                      }
+                  },
+                  {
+                      "@id": "http://purl.uvu.edu:8888/competencies/1245123223",
+                      "achievement": "Basic",
+                      "label": "Pluralsight",
+                      "statement": "Show how to manipulate the DOM using JavaScript.",
+                      "outcome":{
+                          "@id":"http://example.com/outcomes/1",
+                          "title":"Script basic web page functionality using JavaScript."
+                      }
+                  },
+                  {
+                      "@id": "http://purl.uvu.edu:8888/competencies/12456786723",
+                      "achievement": "Basic",
+                      "label": "Pluralsight",
+                      "statement": "Read and write JSON data including arrays of objects.",
+                      "outcome":{
+                          "@id":"http://example.com/outcomes/1",
+                          "title":"Script basic web page functionality using JavaScript."
+                      }
+                  },
+                  {
+                      "@id": "http://purl.uvu.edu:8888/competencies/12452342223",
+                      "achievement": "Distinguished",
+                      "label": "Pluralsight",
+                      "statement": "Utlize libraries such as jQuery to accomplish common tasks.",
+                      "outcome":{
+                          "@id":"http://example.com/outcomes/1",
+                          "title":"Script basic web page functionality using JavaScript."
+                      }
+                  },
+                  {
+                      "@id": "http://purl.uvu.edu:8888/competencies/124sadfds523",
+                      "achievement": "Basic",
+                      "label": "Pluralsight",
+                      "statement": "Demonstrate code uses objects within objects and include multi-dimensional arrays.",
+                      "outcome":{
+                          "@id":"http://example.com/outcomes/1",
+                          "title":"Script basic web page functionality using JavaScript."
+                      }
+                  },
+                  {
+                      "@id": "http://purl.uvu.edu:8888/competencies/124523",
+                      "achievement": "NonProficient",
+                      "label": "Pluralsight",
+                      "statement": "Demonstrate ability to refactor code showing original and then optimized code.",
+                      "outcome":{
+                          "@id":"http://example.com/outcomes/1",
+                          "title":"Script basic web page functionality using JavaScript."
+                      }
+                  }
+
+              ]
+          },
+          {
+              "@id": "http://www.pluralsight.com/courses/front-end-web-app-html5-javascript-css",
+              "label": "Pluralsight",
+              "title": "Front-End Web Development Quick Start With HTML5, CSS, and JavaScript",
+              "competencies": [
+                  {
+                      "@id": "http://purl.pluralsight.com:8888/competencies/9826213121",
+                      "achievement": "Basic",
+                      "label": "Pluralsight",
+                      "statement": "Demonstrate understanding of 'scope' in JavaScript.",
+                      "outcome":{
+                          "@id":"http://example.com/outcomes/1",
+                          "title":"Script basic web page functionality using JavaScript."
+                      }
+                  }
+                ]
+            }
+        ]
+    },
+    "tool_consumer_profile": {
+        "@id": "http://purl.uvu.edu:8888/lti2_tc/tool_consumer_profiles/",
+        "lti_version": "LTI-2p0",
+        "product_name": "Elan/LuMoS",
+        "service_provider_name": "Elan University"
+    },
+    "user": {
+        "@id": "http://purl.uvu.edu:8888/users/14",
+        "email": "tarne@hotmail.com",
+        "familyName": "Hafez",
+        "givenName": "Olivia",
+        "middleName": "R",
+        "sourced_id": 123456
+    }
+}
